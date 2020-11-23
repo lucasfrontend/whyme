@@ -1,0 +1,490 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+#text {
+		text-align: justify;
+		-webkit-hyphens: auto; /* A día de hoy aún es necesario el prefijo para soportar a Safari */
+		hyphens: auto;
+	}
+
+
+/* Override UGG site */
+#main {
+    width: 100%; 
+    padding:0;
+}
+.content-asset p {
+    margin:0 auto;
+}
+.breadcrumb {
+    display:none;
+}
+
+/* Container text */
+.container-one{
+    margin: 40px;
+    border-radius: 15px;
+}
+
+.container-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.img-buena-onda{
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    background-image: url(./Assets/buena-onda.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-entusiasmo {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    background-image: url(./Assets/entusiasmo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-ganas-de-aprender {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    background-image: url(./Assets/ganas-de-aprender.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+/* Helpers */
+/**************************/
+.margin-top-10 {
+    padding-top:10px;
+}
+.margin-bot-10 {
+    padding-bottom:10px;
+}
+
+/* Typography */
+/**************************/
+#parallax-world-of-ugg h1 {
+    font-family:'Oswald', sans-serif; 
+    font-size:24px; 
+    font-weight:400; 
+    text-transform: uppercase; 
+    color:black; 
+    padding:0; 
+    margin:0;
+}
+#parallax-world-of-ugg h2 {
+    font-family:'Oswald', 
+    sans-serif; font-size:70px; 
+    letter-spacing:10px; 
+    text-align:center; 
+    color:white; 
+    font-weight:400; 
+    text-transform:uppercase; 
+    z-index:10; 
+    opacity:.9;
+}
+#parallax-world-of-ugg h3 {
+    font-family:'Oswald', sans-serif; 
+    font-size:14px; 
+    line-height:0; 
+    font-weight:400; 
+    letter-spacing:8px; 
+    text-transform: uppercase; 
+    color:black;
+}
+#parallax-world-of-ugg p {
+    /*font-family:'Source Sans Pro', sans-serif; */
+    font-family: 'Playfair Display', serif;
+    font-weight:400; 
+    font-size: 25px; 
+    line-height:24px;
+    text-align: left;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+.text- {
+
+}
+
+.first-character {
+    font-weight:400; 
+    float: left; 
+    font-size: 80px; 
+    line-height: 60px; 
+    padding-top: 0px; 
+    padding-right: 8px; 
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+/* Section - Title */
+/**************************/
+#parallax-world-of-ugg .title {
+    background: white; 
+    padding: 60px; 
+    margin:0 auto; 
+    text-align:center;
+}
+#parallax-world-of-ugg .title h1 {
+    font-size:35px; 
+    letter-spacing:8px;
+}
+
+/* Section - Block */
+/**************************/
+#parallax-world-of-ugg .block {
+    background: white; 
+    padding: 60px; 
+    width:820px; 
+    margin:0 auto; 
+    text-align:justify;
+}
+#parallax-world-of-ugg .block-gray {
+    background: #f2f2f2;
+    padding: 60px;
+}
+#parallax-world-of-ugg .section-overlay-mask {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: black; 
+    opacity: 0.70;
+}
+
+/* Section - Parallax */
+/**************************/
+#parallax-world-of-ugg .parallax-one {
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url(https://images.pexels.com/photos/1074451/pexels-photo-1074451.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); 
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: top center;
+}
+#parallax-world-of-ugg .parallax-two {
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url(https://images.pexels.com/photos/210012/pexels-photo-210012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+#parallax-world-of-ugg .parallax-three {
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url(https://images.pexels.com/photos/5088008/pexels-photo-5088008.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+
+/* Extras */
+/**************************/
+#parallax-world-of-ugg .line-break {
+    border-bottom:1px solid black; 
+    width: 150px; 
+    margin:0 auto;
+}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) {
+    .img-ganas-de-aprender {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .img-buena-onda{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .img-entusiasmo {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 959px) {
+    .container-two{
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  #parallax-world-of-ugg .block {
+      padding: 40px; 
+      width:620px;
+    }
+}
+@media screen and (max-width: 767px) {
+  #parallax-world-of-ugg .block {
+      padding: 30px; 
+      width:420px;
+    }
+  #parallax-world-of-ugg h2 {
+      font-size:30px;
+    }
+  #parallax-world-of-ugg .block {
+      padding: 30px;
+    }
+  #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three {
+      padding-top:100px; 
+      padding-bottom:100px;
+    }
+}
+@media screen and (max-width: 479px) {
+  #parallax-world-of-ugg .block {
+      padding: 30px 15px; 
+      width:290px;
+    }
+}
+
+
+
+
+
+.flex-rw {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+footer {
+  background: rgb(55,55,55);
+  margin-top: auto;
+  padding: 5px;
+  width: 100%
+  overflow: hidden
+}
+.footer-list-top {
+  width: 33.333%
+}
+.footer-list-top > li {
+  text-align: center;
+  padding-bottom: 10px
+}
+.footer-list-header {
+  padding: 10px 0 5px 0;
+  color: #fff;
+  font: 2.3vw "Oswald", sans-serif
+}
+.footer-list-anchor {
+  font: 1.3em "Open Sans", sans-serif
+}
+.footer-social-section {
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+
+}
+.footer-social-section::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 10px;
+  border-top: 1px solid black;
+  width: calc(100% - 20px)
+}
+.footer-social-overlap {
+  position: relative;
+  z-index: 2;
+  background: rgb(55,55,55);
+  padding: 0 20px
+}
+.footer-social-connect {
+  display: flex;
+  align-items: center;
+  font: 2em "Oswald", sans-serif;
+  color: #fff
+}
+.footer-social-small {
+  font-size: 0.5em;
+  padding: 0px 20px
+}
+.footer-social-overlap > a {
+  font-size: 2em
+}
+.footer-social-overlap > a:not(:first-child) {
+  margin-left: 0.38em
+}
+.footer-bottom-section {
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid black;
+  margin-top: 10px
+}
+.footer-bottom-section > div:first-child {
+  margin-right: auto
+}
+.footer-bottom-wrapper {
+  font-size: 1.5em;
+  color: #fff
+}
+.footer-address {
+  display: inline;
+  font-style: normal
+}
+
+.icons-footer {
+    color: black;
+    margin: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .footer-list-header {
+    font-size: 2em
+  }
+  .footer-list-anchor {
+    font-size: 1.1em
+  }
+  .footer-social-connect {
+    font-size: 2.5em
+  }
+  .footer-social-overlap > a {
+    font-size: 2.24em
+  }
+  .footer-bottom-wrapper {
+    font-size: 1.3em
+  }
+}
+@media only screen and (max-width: 568px) {
+  main {
+    font-size: 5em
+  }
+  .footer-list-top {
+    width: 100%
+  }
+  .footer-list-header {
+    font-size: 3em;
+  }
+  .footer-list-anchor {
+    font-size: 1.5em
+  }
+  .footer-social-section {
+    justify-content: center
+  }
+  .footer-social-section::after {
+    top: 25%
+  }
+  .footer-social-connect {
+    margin-bottom: 10px;
+    padding: 0 10px
+  }
+  .footer-social-overlap {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-social-icons-wrapper {
+    width: 100%;
+    padding: 0
+  }
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 20px;
+  }
+  .footer-bottom-section {
+    padding: 0 5px 10px 5px
+  }
+  .footer-bottom-wrapper {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px
+  }
+}
+@media only screen and (max-width: 480px) {
+  .footer-social-overlap > a {
+    margin: auto
+  }
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 0;
+  }
+  .footer-bottom-rights {
+    display: block
+  }
+}
+@media only screen and (max-width: 320px) {
+  .footer-list-header {
+    font-size: 2.2em
+  }
+  .footer-list-anchor {
+    font-size: 1.2em
+  }
+  .footer-social-connect {
+    font-size: 2.4em
+  }
+  .footer-social-overlap > a {
+    font-size: 2.24em
+  }
+  .footer-bottom-wrapper {
+    font-size: 1.3em
+  }
+}
+
+
