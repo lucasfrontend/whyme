@@ -128,9 +128,6 @@ html, body {
     overflow-wrap: break-word;
     hyphens: auto;
 }
-.text- {
-
-}
 
 .first-character {
     font-weight:400; 
@@ -295,6 +292,12 @@ html, body {
 }
 
 
+.author-{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+
+}
 
 
 .flex-rw {
@@ -307,7 +310,7 @@ footer {
   margin-top: auto;
   padding: 5px;
   width: 100%
-  overflow: hidden
+  overflow: hidden;
 }
 .footer-list-top {
   width: 33.333%
